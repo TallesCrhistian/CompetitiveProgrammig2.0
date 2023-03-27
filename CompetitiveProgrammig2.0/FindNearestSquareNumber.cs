@@ -36,7 +36,7 @@
             double calculateOne = Math.Pow(resultOne, 2);
             double calculateTwo = Math.Pow(resultTwo, 2);
 
-            if (Math.Abs(calculateOne - n) < Math.Abs(calculateTwo -n))
+            if (Math.Abs(calculateOne - n) < Math.Abs(calculateTwo - n))
             {
                 return (int)calculateOne;
             }
